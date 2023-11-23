@@ -23,7 +23,7 @@
 				<a href="mailto:threedalpeng@gmail.com">
 					<button class="btn btn-sm">📧 threedalpeng@gmail.com</button>
 				</a>
-				<a href="mailto:threedalpeng@gmail.com">
+				<a href="mailto:dalpengx3@g.skku.edu">
 					<button class="btn btn-sm">📧 dalpengx3@g.skku.edu</button>
 				</a>
 				<a href="https://github.com/threedalpeng" target="_blank">
