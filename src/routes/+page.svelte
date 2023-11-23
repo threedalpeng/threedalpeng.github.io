@@ -96,7 +96,7 @@
 				<p>You can find my resources for presonal study:</p>
 				<ul class="mt-0">
 					<li><a href="/presentations">My Presentations</a></li>
-					<li><a href="threedalpeng.com" target="_blank">My Blog Post(Not Published Yet..)</a></li>
+					<li><a href="https://threedalpeng.com" target="_blank">My Blog Post(Not Published Yet..)</a></li>
 				</ul>
 				<h3>Work Experience</h3>
 				<ul>
