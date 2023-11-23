@@ -1,56 +1,62 @@
+# 워크플로우 이름
 name: Deploy to GitHub Pages
 
+# 메인 브랜치에만 push할 수 있게 지정한다
 on:
   push:
     branches: 'main'
 
 jobs:
+  # 사이트를 빌드하기
   build_site:
     runs-on: ubuntu-latest
     steps:
+      # 깃험 워크플로우가 진행되는 워크스페이스에 현재 레포를 checkout한다.
       - name: Checkout
         uses: actions/checkout@v3
 
-      # If you're using pnpm, add this step then change the commands and cache key below to use `pnpm`
-      # - name: Install pnpm
-      #   uses: pnpm/action-setup@v2
-      #   with:
-      #     version: 8
-
+      # 노드 프로젝트이므로 우선 노드를 설치한다
       - name: Install Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 18
           cache: npm
-
+      
+      # 디펜던시를 전부 설치한다
       - name: Install dependencies
         run: npm install
 
+      # 프로젝트 빌드를 진행한다
       - name: build
         env:
           BASE_PATH: '/${{ github.event.repository.name }}'
         run: |
           npm run build
 
+      # 빌드한 결과물을 전부 github-pages에 묶어 업로드한다
       - name: Upload Artifacts
         uses: actions/upload-pages-artifact@v2
         with:
-          # this should match the `pages` option in your adapter-static options
           path: 'build/'
 
+  # 배포하기
   deploy:
+    # 앞서 빌드가 완료되어야 한다
     needs: build_site
     runs-on: ubuntu-latest
 
+    # 아래 actions/deploy-pages@v2 액션에서 페이지와 토큰을 쓰기 위한 권한이 요구된다
     permissions:
       pages: write
       id-token: write
 
+    # threedalpeng.github.io로 배포될 수 있도록 환경을 설정한다
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
+      # 위의 설정값들을 바탕으로 배포를 진행한다
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v2
