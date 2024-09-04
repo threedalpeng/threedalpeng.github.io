@@ -16,7 +16,10 @@ const config = {
 		}),
 		paths: {
 			base: process.argv.includes('dev') ? '' : ''
-		}
+		},
+		alias: {
+			'$assets/*': 'src/assets/*'
+		},
 	}
 };
 
