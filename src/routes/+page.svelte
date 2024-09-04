@@ -13,11 +13,13 @@
 		<div>
 			<p>Hello! My name is</p>
 			<p class="text-3xl font-bold">Kim Jeong-won</p>
-			<p>
+			<p class="mt-4">
 				I am a undergraduate student in the Department of Computer Science and Engineering at
 				Sungkyunkwan University.
 			</p>
-			<p>My interests include AI-integrated Services/Game, AI Agents, Computer Graphics, and XR</p>
+			<p class="mt-4">
+				My interests include AI-integrated Services/Game, AI Agents, Computer Graphics, and XR
+			</p>
 			<h1 class="mt-2 font-semibold">Contact:</h1>
 			<div>
 				<a href="mailto:threedalpeng@gmail.com">
@@ -46,7 +48,7 @@
 					<span class="font-semibold"
 						>ShibaMarket : Interactive commodity trading game with LLM-based agents</span
 					>
-					<br />Team Leader | 2024.06 ~
+					<br />Team Leader&nbsp;&nbsp;|&nbsp;&nbsp;2024.06 ~
 				</p>
 				<ul>
 					<li>
@@ -58,10 +60,12 @@
 				<p>
 					<span class="font-semibold"
 						>RealBang : 3D room generation AI models and viewer based on Novel View Synthesis
-					</span>
-					<br />Team Member | 2023.05 ~ 2024.01
-					<br />
-					<a href="https://github.com/orgs/Real-Bang/repositories" target="_blank">Github Link</a>
+					</span>&nbsp;<a
+						class="inline-block"
+						href="https://github.com/orgs/Real-Bang/repositories"
+						target="_blank"><img class="m-0 h-4 p-0" src={githubmark} alt="Github Link" /></a
+					>
+					<br />Team Member&nbsp;&nbsp;|&nbsp;&nbsp;2023.05 ~ 2024.01
 				</p>
 				<ul>
 					<li>A project for Spark 11st and Co-Deep Learning</li>
@@ -75,12 +79,12 @@
 				<p>
 					<span class="font-semibold"
 						>Automated Summarization and Authoring Assistant for Product Review Data</span
+					>&nbsp;<a
+						class="inline-block"
+						href="https://github.com/threedalpeng/skku-coop-GIT-GPT-SERVER"
+						target="_blank"><img class="m-0 h-4 p-0" src={githubmark} alt="Github Link" /></a
 					>
-					<br />Team member | 2020.12 ~ 2021.02
-					<br />
-					<a href="https://github.com/threedalpeng/skku-coop-GIT-GPT-SERVER" target="_blank"
-						>Github Link (Webapp)</a
-					>
+					<br />Team member&nbsp;&nbsp;|&nbsp;&nbsp;2020.12 ~ 2021.02
 				</p>
 				<ul>
 					<li>Industry-University Coop Project with Goodmorning Information Technology</li>
@@ -93,14 +97,16 @@
 				<p>
 					<span class="font-semibold"
 						>PreVentra : AI-detected Virus Infection Prevention System</span
+					>&nbsp;<a
+						class="inline-block"
+						href="https://github.com/threedalpeng/2020-sw-skku-GIT"
+						target="_blank"><img class="m-0 h-4 p-0" src={githubmark} alt="Github Link" /></a
+					>&nbsp;<a
+						class="inline-block"
+						href="https://github.com/threedalpeng/2020-sw-skku-GIT-server"
+						target="_blank"><img class="m-0 h-4 p-0" src={githubmark} alt="Github Link" /></a
 					>
-					<br />Team member | 2020.04 ~ 2020.12
-					<br /><a href="https://github.com/threedalpeng/2020-sw-skku-GIT" target="_blank"
-						>Github Link (AI Server)</a
-					>,
-					<a href="https://github.com/threedalpeng/2020-sw-skku-GIT-server" target="_blank"
-						>Github Link (Webapp)</a
-					>
+					<br />Team member&nbsp;&nbsp;|&nbsp;&nbsp;2020.04 ~ 2020.12
 				</p>
 				<ul>
 					<li>Industry-University Coop Project with Goodmorning Information Technology</li>
@@ -119,38 +125,46 @@
 				<ul>
 					<li>
 						Speech Enhancement using AI and Improvement of its Baseline Performance, AI Project,
-						SKKU, Spring 2024(<a
+						SKKU, Spring 2024&nbsp;<a
+							class="inline-block"
 							href="https://github.com/skku-aiproject-team2/skku-aiproject-speech-enhancement"
-							>Github</a
-						>)
+							target="_blank"><img class="m-0 h-4 p-0" src={githubmark} alt="Github Link" /></a
+						>
 					</li>
 					<li>
 						CLab:U - Interactive Clab and Lab Search Service using RAG, Introduction to Software
-						Engineering, SKKU, Spring 2024(<a
-							href="https://github.com/orgs/SKKU-SWE-2024s-Team9/repositories">Github</a
-						>)
+						Engineering, SKKU, Spring 2024&nbsp;<a
+							class="inline-block"
+							href="https://github.com/orgs/SKKU-SWE-2024s-Team9/repositories"
+							target="_blank"><img class="m-0 h-4 p-0" src={githubmark} alt="Github Link" /></a
+						>
 					</li>
 					<li>
 						Designing a Remote Couple Messanger &lt;Dove&gt;, Introduction to Human-Computer
 						Interaction, SKKU, Spring 2024
 					</li>
 					<li>
-						SpaceSwim Game Development Project, Computer Graphics, SKKU, Spring 2021(<a
-							href="https://github.com/threedalpeng/SKKU-2021-Spring-CG-T1">Github</a
-						>)
+						SpaceSwim Game Development Project, Computer Graphics, SKKU, Spring 2021&nbsp;<a
+							class="inline-block"
+							href="https://github.com/threedalpeng/SKKU-2021-Spring-CG-T1"
+							target="_blank"><img class="m-0 h-4 p-0" src={githubmark} alt="Github Link" /></a
+						>
 					</li>
 					<li>
-						PACMAN Game Development Project, Java Programming Lab, SKKU, Spring 2020(<a
-							href="https://github.com/threedalpeng/Pacman_Java">Github</a
-						>)
+						PACMAN Game Development Project, Java Programming Lab, SKKU, Spring 2020&nbsp;<a
+							class="inline-block"
+							href="https://github.com/threedalpeng/Pacman_Java"
+							target="_blank"><img class="m-0 h-4 p-0" src={githubmark} alt="Github Link" /></a
+						>
 					</li>
 				</ul>
 				<h3>Personal</h3>
 				<p>
-					<span class="font-semibold">jazzy-dalpeng</span> (<a
+					<span class="font-semibold">jazzy-dalpeng</span>&nbsp;(working on progress)&nbsp;<a
+						class="inline-block"
 						href="https://github.com/threedalpeng/JazzyDalpeng"
-						target="_blank">Github Link</a
-					>, working on progress)
+						target="_blank"><img class="m-0 h-4 p-0" src={githubmark} alt="Github Link" /></a
+					>
 				</p>
 				<ul>
 					<li>Jazz Guitar practice helper</li>
@@ -158,10 +172,11 @@
 					<li>Built using SvelteKit (w. Svelte5) and custom HTML5 Canvas library</li>
 				</ul>
 				<p>
-					<span class="font-semibold">dalpeng</span> (<a
+					<span class="font-semibold">dalpeng</span>&nbsp;<a
+						class="inline-block"
 						href="https://github.com/threedalpeng/dalpeng"
-						target="_blank">Github Link</a
-					>)
+						target="_blank"><img class="m-0 h-4 p-0" src={githubmark} alt="Github Link" /></a
+					>
 				</p>
 				<ul>
 					<li>
