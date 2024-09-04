@@ -1,11 +1,9 @@
 <script lang="ts">
-	export let title: string;
-	export let link: string;
+	interface PptxIFrameProps {
+		title: string;
+		link: string;
+	}
+	let { title, link }: PptxIFrameProps = $props();
 </script>
 
-<iframe {title} src={link} frameBorder="0" class="h-full flex-1">
-	포함된{' '}
-	<a target="_blank" href="https://office.com"> Microsoft Office </a>{' '}
-	프레젠테이션, 제공:{' '}
-	<a target="_blank" href="https://office.com/webapps"> Office </a>
-</iframe>
+<iframe {title} src={link} class="h-full flex-1" frameborder="0" scrolling="no"></iframe>
