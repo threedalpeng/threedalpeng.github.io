@@ -88,11 +88,11 @@
 				</p>
 				<ul>
 					<li>Industry-University Coop Project with Goodmorning Information Technology</li>
-					<li>Finetuned KoBERT on cosmetics review data crawled from various review sites</li>
 					<li>
-						Developed a next-sentence suggestion feature based on the previous sentence and
-						pre-entered words
+						Finetuned KoGPT-2 on cosmetics review dataset crawled from various review sites, for
+						review generation
 					</li>
+					<li>Finetuned KoBART on DACON news summarization dataset, for review summarization</li>
 				</ul>
 				<p>
 					<span class="font-semibold"
@@ -218,7 +218,7 @@
 					<li>Algorithm/Problem Solving Club NPC, joined as a committee member, 2020 ~ 2021</li>
 					<li>Classical Music Club Eumchiheon, 2019 ~</li>
 				</ul>
-				<p>You can find my resources for presonal study:</p>
+				<p>You can find my resources for personal study:</p>
 				<ul class="mt-0">
 					<li><a href="/presentations">My Presentations</a></li>
 					<li>
