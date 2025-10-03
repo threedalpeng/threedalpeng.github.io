@@ -1,7 +1,7 @@
 <script lang="ts">
 	// 클라이언트 전용 + 정적 프리렌더
 	export const ssr = false;
-	export const prerender = true;
+	export const prerender = false;
 
 	import { onMount } from 'svelte';
 	import { base } from '$app/paths';
