@@ -43,10 +43,10 @@
 	<meta name="robots" content="noindex" />
 </svelte:head>
 
-<div
-	style="min-height:100vh;display:grid;place-items:center;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;"
->
-	{#if error}
+{#if error}
+	<div
+		style="min-height:100vh;display:grid;place-items:center;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;"
+	>
 		<div style="max-width:720px;padding:1rem;text-align:center;">
 			<p style="margin:0 0 .5rem 0;">단축 링크를 처리하지 못했습니다.</p>
 			<p style="margin:.25rem 0;color:#c00;"><code>{error}</code></p>
@@ -67,12 +67,5 @@
 				</div>
 			{/if}
 		</div>
-	{:else}
-		<div style="max-width:640px;padding:1rem;text-align:center;">
-			<p>이동 중… 잠시만요.</p>
-			{#if url}
-				<p>자동 이동이 안 되면 <a rel="nofollow" href={url}>{url}</a>를 눌러 주세요.</p>
-			{/if}
-		</div>
-	{/if}
-</div>
+	</div>
+{/if}
